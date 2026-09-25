@@ -1,0 +1,9 @@
+congress: 119
+sample:
+  total: 60
+  strata:            # ordered by bill text token count; bills above the last max are excluded
+    short:  {max_tokens: 4000,  n: 20}
+    medium: {max_tokens: 20000, n: 20}
+    long:   {max_tokens: 60000, n: 20}
+  seed: 42
+  bill_types: [hr, s]
