@@ -16,8 +16,8 @@ CACHE = Path("data/raw")
 _STAGE_ALIASES = {
     "introduced in house": ["introduced in house"],
     "introduced in senate": ["introduced in senate"],
-    "reported to house": ["reported in house"],
-    "reported to senate": ["reported in senate"],
+    "reported to house": ["reported in house", "reported to house"],
+    "reported to senate": ["reported in senate", "reported to senate"],
     "passed house": ["engrossed in house", "received in senate"],
     "passed senate": ["engrossed in senate"],
     "public law": ["enrolled bill"],
